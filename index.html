@@ -14,7 +14,7 @@
         <!-- navigation part -->
 
         <section class="container">
-            <nav class="navbar navbar-expand-lg bg-light">
+            <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">CodeHS</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -52,7 +52,7 @@
         </section>
 
         <!-- Slider part -->
-        <section class="container">
+        <section class="container mt-5">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
 
                 <div class="carousel-inner">
@@ -109,11 +109,17 @@
 
         <!-- Courses part -->
 
-        <section class="container">
-            <h1>Course Catalog</h1>
-            <p>Our courses align with many state and national standards frameworks.</p>
+        <section class="container mt-5">
+            <div class="grid text-center" style="--bs-rows: 3; --bs-columns: 3;">
+                <div class="g-start-2" style="grid-row: 2">
+                    <h1>Course Catalog</h1>
+                    <p>CodeHS courses teach students applicable computer science skills. Our courses<br>align with many
+                        state and national standards frameworks.</p>
+                </div>
+            </div>
+
         </section>
-        <section class="container">
+        <section class="container mt-4">
             <div class="row row-cols-1 row-cols-lg-2 g-4">
                 <div>
                     <div class="card mb-3" style="max-width: 540px;">
@@ -123,7 +129,7 @@
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <p class="card-title">Fundamental Of UI/UX Design</h5>
+                                    <h5 class="card-title">Fundamental Of UI/UX Design</h5>
                                     <p class="card-text">A UX designer works on a team to create
                                         products that provide meaningful and enjoyable experiences for users.</p>
                                     <h6 class="text-primary">Price: $30</h6>
@@ -225,9 +231,13 @@
                     </div>
 
                 </div>
-                <div class="d-flex justify-content-center">
-                    <button type="button" class="btn btn-primary">See More Courses</button>
+            </div>
+            <div class="grid text-center" style="--bs-rows: 2; --bs-columns: 2;">
+                <div class="g-start-3" style="grid-row: 3">
+                    <button type="button" class="btn btn-primary ">See More Courses</button>
                 </div>
+            </div>
+
         </section>
 
         <!-- e-learning part -->
@@ -296,8 +306,92 @@
 
         <!-- Successful Students -->
 
-        <section>
-            <h1>Meet Our Successfull Students</h1>
+        <section class="container">
+            <div class="mt-5">
+                <h1>Meet Our Successfull<br>Students</h1>
+                <p>The mission of CodeHS is to empower all students to meaningfully <br>impact the future. Our
+                    successful
+                    students list are here:</p>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-4 g-4 mt-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="student/student-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Mridul Talha</h6>
+                            <p class="card-text">UIUX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="student/student-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Jannatul Ferdous</h6>
+                            <p class="card-text">Motion Design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="student/student-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Raihan Chowdhury</h6>
+                            <p class="card-text">Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="student/student-4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Monika Hossain</h6>
+                            <p class="card-text">Graphics Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid text-center" style="--bs-rows: 3; --bs-columns: 3;">
+                <div>
+                    <button type="button" style="grid-row: 2"
+                        class="btn btn-light g-start-2 bg-primary text-white mt-4 mb-5">View
+                        All</button>
+                </div>
+            </div>
+        </section>
+        <section class="container mt-5">
+            <div class="grid text-center" style="--bs-rows: 3; --bs-columns: 3;">
+                <div class="g-start-2" style="grid-row: 2">
+                    <h1>Some Students Feedback</h1>
+                    <p>It promotes self-reflection, increases knowledge retention and encourages constructive
+                        <br>discussion with instructors. Some students describe e-learning feedback:
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">“Students can learn equally well in either delivery format, regardless
+                                of learning style, provided the course is developed around adult learning.” </p>
+                            <h6>Mridul Talha</h6>
+                            <p>UI Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">“The most positive impact with online learning experiences is the class
+                                structure that supports flexibility, organization, and clear expectations”</p>
+                            <h6>Monika Hossain</h6>
+                            <p>Graphics Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>
