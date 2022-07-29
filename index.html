@@ -8,6 +8,7 @@
     <script src="https://kit.fontawesome.com/aeb54a49b4.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -57,16 +58,16 @@
     <!-- Slider part -->
 
     <main class="container">
-        <section class=" mt-5">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-
-                <div class="carousel-inner ">
-                    <div class="carousel-item  active ">
+        <section class="mt-5 design">
+            <div id="carouselExampleDark" class="carousel carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
                         <img src="cover/cv-2.jpg" class="d-block w-100" style="filter: brightness(55%);" alt="...">
                         <div class="carousel-caption d-none d-md-block " style="margin-bottom: 5%;">
-                            <h1 class="fs-1 fw-bold  ">Empowering All Students To Meaningfully Impact the Future
+                            <h1 class="fs-1 fw-bold text-white ">Empowering All Students To Meaningfully Impact the
+                                Future
                             </h1>
-                            <p class="mb-5  ">CodeHS is about providing excellent teaching and
+                            <p class="mb-5 text-white ">CodeHS is about providing excellent teaching and
                                 learning
                                 opportunities in
                                 <br>computer science for students all over the world.
@@ -74,11 +75,12 @@
                             <button type="button" class="btn btn-primary px-4 fw-semibold">Get Started</button>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-bs-interval="2000">
                         <img src="cover/cv-1.jpg" class="d-block w-100" style="filter: brightness(55%);" alt="...">
                         <div class="carousel-caption d-none d-md-block" style="margin-bottom: 5%;">
-                            <h1 class="fs-1 fw-bold">The Top Coding Education Platform for Schools</h1>
-                            <p class="mb-5 fw-semibold">CodeHS courses teach students applicable computer science
+                            <h1 class="fs-1 fw-bold text-white">The Top Coding Education Platform for Schools</h1>
+                            <p class="mb-5 fw-semibold text-white">CodeHS courses teach students applicable computer
+                                science
                                 skills. With a
                                 focus on helping students develop problem solving and computational thinking skills,
                                 students come away both with a knowledge of professional programming languages and the
@@ -88,10 +90,11 @@
                     </div>
                     <div class="carousel-item">
                         <img src="cover/cv-3.jpg" class="d-block w-100" style="filter: brightness(55%);" alt="...">
-                        <div class="carousel-caption d-none d-md-block" style="margin-bottom: 5%;">
-                            <h1 class="fs-1 fw-bold">Level up your coding skills with interactive courses
+                        <div class="carousel-caption d-none d-md-block" style="margin-bottom: 7%;">
+                            <h1 class="fs-1 fw-bold text-white">Level up your coding skills with interactive courses
                             </h1>
-                            <p class="mb-5 fw-semibold">CodeHS offers the most comprehensive course pathway across
+                            <p class="mb-5 fw-semibold text-white">CodeHS offers the most comprehensive course pathway
+                                across
                                 grades 6-12,
                                 starting with introductory level block programming courses all the way up to AP level
                                 text-based programming courses in many languages. </p>
@@ -99,16 +102,17 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
+            </div>
             </div>
         </section>
 
@@ -119,14 +123,14 @@
             <div class="grid text-center" style="--bs-rows: 3; --bs-columns: 3;">
                 <div class="g-start-2 mt-3" style="grid-row: 2">
                     <h1 class="fw-bold">Course Catalog</h1>
-                    <p class="fw-semibold">CodeHS courses teach students applicable computer science skills. Our
+                    <p>CodeHS courses teach students applicable computer science skills. Our
                         courses<br>align with many
                         state and national standards frameworks.</p>
                 </div>
             </div>
 
         </section>
-        <section class=" mt-5">
+        <section class=" mt-5 re-design">
             <div class="row row-cols-1 row-cols-lg-2 g-4">
                 <div>
                     <div class="card mb-3" style="max-width: 540px;">
@@ -137,7 +141,7 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title fw-bold">Fundamental Of UI/UX Design</h5>
-                                    <p class="card-text fw-semibold">A UX designer works on a team to create
+                                    <p class="card-text ">A UX designer works on a team to create
                                         products that provide meaningful and enjoyable experiences for users.</p>
                                     <h6 class="text-primary fw-bold">Price: $30</h6>
                                 </div>
@@ -154,7 +158,7 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title fw-bold">Javascript Basic to advanced</h5>
-                                    <p class="card-text fw-semibold">JavaScript is the world's most popular
+                                    <p class="card-text ">JavaScript is the world's most popular
                                         programming language.
                                         JavaScript is the programming language of the Web.
                                     </p>
@@ -173,7 +177,7 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title fw-bold">Fullstack Web Development</h5>
-                                    <p class="card-text fw-semibold">is a person who can develop both
+                                    <p class="card-text ">is a person who can develop both
                                         client and server software, also
                                         knows how to: Program a browser Program a server.</p>
                                     <h6 class="text-primary fw-bold">Price: $50</h6>
@@ -191,7 +195,7 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title fw-bold">Digital Marketing</h5>
-                                    <p class="card-text fw-semibold">is the marketing that uses the
+                                    <p class="card-text ">is the marketing that uses the
                                         Internet and online based digital technologies such as desktop
                                         computers, mobile
                                         phones etc.
@@ -211,7 +215,7 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title fw-bold">Photography Basic Rules</h5>
-                                    <p class="card-text fw-semibold">The golden ratio is a ratio of approximately 1.618
+                                    <p class="card-text">The golden ratio is a ratio of approximately 1.618
                                         to 1 and
                                         used for centuries by artists, architects, and musicians.</p>
                                     <h6 class="text-primary fw-bold">Price: $15</h6>
@@ -229,7 +233,7 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title fw-bold">Motion Graphics</h5>
-                                    <p class="card-text fw-semibold">Motion graphics are pieces of animation or
+                                    <p class="card-text">Motion graphics are pieces of animation or
                                         digital footage which create the illusion of motion or rotation.</p>
                                     <h6 class="text-primary fw-bold">Price: $20</h6>
                                 </div>
@@ -239,7 +243,7 @@
 
                 </div>
             </div>
-            <div class="grid text-center" style="--bs-rows: 2; --bs-columns: 2;">
+            <div class="grid text-center mt-4" style="--bs-rows: 2; --bs-columns: 2;">
                 <div class="g-start-3" style="grid-row: 3">
                     <button type="button" class="btn btn-primary fw-semibold ">See More Courses</button>
                 </div>
@@ -249,12 +253,12 @@
 
         <!-- e-learning part -->
 
-        <section class="">
-            <div class="d-flex grid text-center">
+        <section>
+            <div class="d-flex grid text-center ">
                 <div class="g-col-6 mb-5 mt-5">
                     <img class="" src="image/working.png">
                 </div>
-                <div class=" g-col-6 shadow p-3 mb-5 mt-5 bg-body rounded">
+                <div class=" g-col-6 shadow p-3 mb-5 mt-5 bg-body rounded re-decorate">
                     <h1 class="text-start fw-bold">Explore the e-learning<br> Institute</h1>
                     <p class="text-start ">The eLearning Institute is a virtual destination for professionals
                         in various
@@ -528,7 +532,7 @@
             </div>
         </section>
 
-        <section class=" mt-5">
+        <section class=" mt-5 decoration">
             <div class="grid text-center" style="--bs-rows: 3; --bs-columns: 3;">
                 <div class="g-start-2" style="grid-row: 2">
                     <h1 class="fw-bold">Trusted by over 800+ companies</h1>
